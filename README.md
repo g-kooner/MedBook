@@ -1,2 +1,3 @@
 # MedBook
- add and delete funcs work. EDIT NEEDS A DESIGN CHANGE
+ keep track of medications 
+ add, delete, view/edit and dosages
