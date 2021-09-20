@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/add_button"
+        android:onClick="addMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addButton" />
+
+    <Button
+        android:id="@+id/del_button"
+        android:onClick="delMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delButton" />
+
+    <Button
+        android:id="@+id/view_med_button"
+        android:onClick="viewMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/viewMedButton" />
+
+    <Button
+        android:id="@+id/edit_med_button"
+        android:onClick="editMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editMedButton" />
+
+    <ListView
+        android:id="@+id/med_list"
+        android:layout_width="match_parent"
+        android:layout_height="447dp" />
+
+</LinearLayout>
